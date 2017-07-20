@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap</title>
+<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			#carside{
+				height:950px;
+				width: 950px;
+				margin-top: 40px;
+			
+				background-color: gainsboro;
+
+				
+			}
+				#lastbox{
+				height:250px;
+				width: 950px;
+				margin-top: 50px;
+				margin-left: -6px;
+				
+				background-color: lightblue;
+			
+
+				
+			}
+	#carbox{
+				height:640px;
+				width:640px;
+				margin-top:20px;
+				float:left;
+				
+			}
+	.car	{
+			height: 92px;
+			width: 640px;
+			border: 0.1px solid white;
+			margin-top: -20px;
+			}
+	.ratebox{
+			height: 92px;
+			width:110px;
+			position: absolute;
+			margin-left: 5px;
+			border: 1px;
+			}
+	.carbox{
+			height: 92px;
+			width: 150px;
+			border: 1px ;
+			position: absolute;
+			margin-left: 150px;
+			}
+	.detail{
+			height: 92px;
+			width: 146px;
+			border: 1px;
+			position: absolute;
+			margin-left:325px;
+			font-size: 12px;
+			text-align: center;
+			float: left;
+			font-style:#333333;
+			}	
+	.passenger{
+				height: 25px;
+				width: 125px;
+				position: absolute;
+				margin-top:2px;
+				margin-left: 8px;
+				font-size: 11px;
+				text-align: center;
+						}
+	.smallicon{
+				height: 25px;
+				width: 125px;
+				position: absolute;
+				margin-left: 15px;
+				font-size: 11px;
+				text-align: center;
+			}
+	.largeicon{
+					height: 25px;
+					width: 125px;
+					position: absolute;
+					margin-left: 2px;
+					font-size: 11px;
+					text-align: center;
+							}
+	.features{
+			height: 80px;
+			width:130px ;
+			position: absolute;
+			margin-left:490px;
+			font-style: arial;
+			font-size: 12px;
+			text-align: center;
+					}
+	#sidedetail{
+			height:640px;
+			width:300px;
+			margin-top: -640px;
+			margin-left: 640px;
+		
+			
+			}
+	#details{
+							height: 300px;
+			width: 299px;
+		margin-top: -650px;
+		margin-left: 640px;
+			
+			}
+	#offer{
+			height: 340px;
+			width: 299px;
+			margin-top: -260px;
+			margin-left: 640px;
+
+			}
+		</style>
+</head>
+<body>
+<div class="container">
+		<div class="row" style="margin-top: 10px;"><!--  logo row start -->
+			<div class="col-md-6 col-sm-12" style="margin-top: 10px;"> 
+				<img src="E:\program_example\HTML\Advantage_layout\images\adv_logo_hd.gif" alt="logo">
+		</div>
+			<div class="col-md-2 col-sm-12" style="width: 80px; margin-top: 10px; margin-left: 20px;">
+				<select name="country">
+					<option value="USA">USA</option>
+			<option value="INDIA">INDIA</option>
+			<option value="CHINA">CHINA</option>
+			<option value="LONDON">LONDON</option>
+		</select>		  	
+			</div>
+			<div class="col-md-1 col-sm-12" style="width: 80px; margin-left: 20px;margin-top: 10px;">
+				<select name="Language">
+					<option value="USA">English</option>
+			<option value="INDIA">Spanish</option>
+			<option value="CHINA">Hindi</option>
+			<option value="LONDON">Franch</option>
+		</select>		  	
+			</div>
+				<div  class="col-md-3 col-sm-12" style="margin-top: 10px;">
+					<input type="text" name="firstname" value="search" style="margin-left: 20px; height: 17px; width: 100px;">
+					<img src="E:\program_example\HTML\Advantage_layout\images\search_btn.gif" alt="search" style="margin-left: -4px; margin-top: -2px; height: 17px;">
+				</div>
+		</div><!-- logo end -->
+					<br>
+			
+
+				<div class="row" style="margin-top: 10px;">
+			
+					<div class="col-md-3 col-sm-12" style="border : 1px; background-color: blue;"> Rate and Reservation
+			</div>
+				<div class="col-md-3 col-sm-12" style=" border : 1px ; background-color: lightgray;">A-Pass Online CheckIN	  	
+				</div>
+				<div class="col-md-2 col-sm-12" style="border : 1px ; background-color: lightgray;">Find A Location	  	
+				</div>
+					<div  class="col-md-2 col-sm-12" style="border : 1px ;background-color: lightgray;">Deals and Offers
+					</div>
+						<div  class="col-md-2 col-sm-12" style="border : 1px ;background-color: lightgray;">Contact Us
+					</div>
+				</div><!-- 2nd row end -->
+				
+
+			
+	<div class="row" style="margin-top: 20px;"> <!-- 3rd row start -->
+					<div class="col-md-2 col-sm-12" style="border : 1px solid black; background-color: lightskyblue; height: 34px"> Step 1
+			</div>
+			<div class="col-md-4 col-sm-12" style=" border : 1px solid blue; background-color: mediumblue; height: 34px">
+			<img src="E:\program_example\HTML\Advantage_layout\images\resStepDivider.gif" style="margin-left: -17px;">2- Select vehicles and extras 
+			</div>
+				<div class="col-md-3 col-sm-12" style="border : 1px   height: 34px">
+				<img src="E:\program_example\HTML\Advantage_layout\images\resStepDividerActive.gif" style="margin-left: -17px;">Step 3 	
+				</div>
+					<div  class="col-md-3 col-sm-12" style="border : 1px height: 34px">Step 4
+					</div>   	
+			</div><!-- 3rd row end -->
+			
+				
+
+	<div id="carside">
+		<div id="carbox">
+			<div class="car" style=" background-color: white;">
+				<div class="ratebox" style="text-align: center;">
+					<h4><b>10.99</b></h4>
+					<p style="margin-top: -10px;">USD/DAY</p>
+					<img src="E:\program_example\HTML\Advantage_layout\images\select_gr_btn.gif" style="margin-top: -20px;">
+					<h6 style="margin-top: -8px;">Total 73.93 USD</h6>
+				
+				</div>
+				<div class="carbox"> <img src="E:\program_example\HTML\Advantage_layout\images\car1.gif" alt="search"></div>
+				<div class="detail">
+					<div class="passenger"><img src="E:\program_example\HTML\Advantage_layout\images\icon_man.gif"> <font> <b> x 4 </b>Passengers</font></div>
+					<br></br>
+					<div class="smallicon"><img src="E:\program_example\HTML\Advantage_layout\images\icon_sm_scase.gif"> <font> <b> x 2 </b>Small Suitcases</font>
+					<br> </br>
+					<div class="largeicon"> <img src="E:\program_example\HTML\Advantage_layout\images\icon_lg_scase.gif"> <font> <b> x 0 </b> Large Suitcases </font> </div>
+				</div>
+				</div>
+				<div class="features">
+					Automatic Transmission
+					Air Conditioning <br>
+					24 Miles/gallon
+			</div>
+
+			<div class="car" style="margin-top: 92px; background-color: lightgrey;">
+				<div class="ratebox" style="text-align: center;">
+					<h4><b>13.91</b></h4>
+					<p style="margin-top: -10px;">USD/DAY</p>
+					<img src="E:\program_example\HTML\Advantage_layout\images\select_gr_btn.gif" style="margin-top: -20px;">
+					<h6 style="margin-top: -8px;">Total 73.37 USD</h6>
+				</div>
+				<div class="carbox"> <img src="E:\program_example\HTML\Advantage_layout\images\car2.gif" alt="search"></div>
+				<div class="detail">
+					<div class="passenger"><img src="E:\program_example\HTML\Advantage_layout\images\icon_man.gif"> <font> <b> x 4 </b>Passengers</font></div>
+						<br></br>
+					<div class="smallicon"><img src="E:\program_example\HTML\Advantage_layout\images\icon_sm_scase.gif"> <font> <b> x 1 </b>Small Suitcases</font>
+						<br> </br>
+					<div class="largeicon"> <img src="E:\program_example\HTML\Advantage_layout\images\icon_lg_scase.gif"> <font> <b> x 2 </b> Large Suitcases </font> </div>
+				</div>
+				</div>
+				<div class="features">
+					Automatic Transmission
+					Air Conditioning <br>
+					24 Miles/gallon
+				
+			</div>
+
+			<div class="car" style="margin-top: 92px;background-color: white;">
+			<div class="ratebox" style="text-align: center;">
+			<h4><b>14.75</b></h4>
+			<p style="margin-top: -10px;">USD/DAY</p>
+			<img src="E:\program_example\HTML\Advantage_layout\images\select_gr_btn.gif" style="margin-top: -20px;">
+			<h6 style="margin-top: -8px;">Total 103.93 USD</h6>
+				
+			</div>
+			<div class="carbox"> <img src="E:\program_example\HTML\Advantage_layout\images\car3.gif" alt="search"></div>
+			<div class="detail">
+				<div class="passenger"><img src="E:\program_example\HTML\Advantage_layout\images\icon_man.gif"> <font> <b> x 4 </b>Passengers</font></div>
+					<br></br>
+				<div class="smallicon"><img src="E:\program_example\HTML\Advantage_layout\images\icon_sm_scase.gif"> <font> <b> x 2 </b>Small Suitcases</font>
+					<br> </br>
+				<div class="largeicon"> <img src="E:\program_example\HTML\Advantage_layout\images\icon_lg_scase.gif"> <font> <b> x 2 </b> Large Suitcases </font> </div>
+			</div>
+			</div>
+			<div class="features">
+				Automatic Transmission
+				Air Conditioning <br>
+				Dual Airbegs<br>
+				AB5<br>
+				25 Miles/gallon
+				
+			</div>
+
+			<div class="car" style="margin-top: 92px;background-color: lightgrey;">
+			<div class="ratebox" style="text-align: center;">
+			<h4><b>17.07</b></h4>
+			<p style="margin-top: -10px;">USD/DAY</p>
+			<img src="E:\program_example\HTML\Advantage_layout\images\select_gr_btn.gif" style="margin-top: -20px;">
+			<h6 style="margin-top: -8px;">Total 119.93 USD</h6>
+				
+			</div>
+			<div class="carbox"> <img src="E:\program_example\HTML\Advantage_layout\images\car4.gif" alt="search"></div>
+			<div class="detail">
+				<div class="passenger"><img src="E:\program_example\HTML\Advantage_layout\images\icon_man.gif"> <font> <b> x 4 </b>Passengers</font></div>
+					<br></br>
+				<div class="smallicon"><img src="E:\program_example\HTML\Advantage_layout\images\icon_sm_scase.gif"> <font> <b> x 2 </b>Small Suitcases</font>
+					<br> </br>
+				<div class="largeicon"> <img src="E:\program_example\HTML\Advantage_layout\images\icon_lg_scase.gif"> <font> <b> x 1 </b> Large Suitcases </font> </div>
+			</div>
+			</div>
+			<div class="features">
+				Automatic Transmission
+				Air Conditioning <br>
+				Dual Airbegs<br>
+				AB5<br>
+				25 Miles/gallon
+				
+			</div>
+
+			<div class="car" style="margin-top: 92px; background-color: white;">
+				<div class="ratebox" style="text-align: center;">
+						<h4><b>22.87</b></h4>
+						<p style="margin-top: -10px;">USD/DAY</p>
+						<img src="E:\program_example\HTML\Advantage_layout\images\select_gr_btn.gif" style="margin-top: -20px;">
+						<h6 style="margin-top: -8px;">Total 160.93 USD</h6>
+				</div>
+			<div class="carbox"> <img src="E:\program_example\HTML\Advantage_layout\images\car5.gif" alt="search"></div>
+			<div class="detail">
+				<div class="passenger"><img src="E:\program_example\HTML\Advantage_layout\images\icon_man.gif"> <font> <b> x 4 </b>Passengers</font></div>
+					<br></br>
+				<div class="smallicon"><img src="E:\program_example\HTML\Advantage_layout\images\icon_sm_scase.gif"> <font> <b> x 2 </b>Small Suitcases</font>
+					<br> </br>
+				<div class="largeicon"> <img src="E:\program_example\HTML\Advantage_layout\images\icon_lg_scase.gif"> <font> <b> x 2 </b> Large Suitcases </font> </div>
+			</div>
+			</div>
+			<div class="features">
+				Automatic Transmission
+				Air Conditioning <br>
+				Dual Airbegs<br>
+				AB5<br>
+				16 Miles/gallon
+			</div>
+
+			<div class="car" style="margin-top: 92px;background-color: lightgrey;">
+				<div class="ratebox" style="text-align: center;">
+				<h4><b>25.04</b></h4>
+				<p style="margin-top: -10px;">USD/DAY</p>
+				<img src="E:\program_example\HTML\Advantage_layout\images\select_gr_btn.gif" style="margin-top: -20px;">
+				<h6 style="margin-top: -8px;">Total 173.93 USD</h6>
+					
+			</div>
+				<div class="carbox"> <img src="E:\program_example\HTML\Advantage_layout\images\car6.gif" alt="search"></div>
+				<div class="detail">
+				<div class="passenger"><img src="E:\program_example\HTML\Advantage_layout\images\icon_man.gif"> <font> <b> x 4 </b>Passengers</font></div>
+						<br></br>
+					<div class="smallicon"><img src="E:\program_example\HTML\Advantage_layout\images\icon_sm_scase.gif"> <font> <b> x 2 </b>Small Suitcases</font>
+						<br> </br>
+					<div class="largeicon"> <img src="E:\program_example\HTML\Advantage_layout\images\icon_lg_scase.gif"> <font> <b> x 0 </b> Large Suitcases </font> </div>
+				</div>
+				</div>
+				<div class="features">
+					Automatic Transmission
+					Air Conditioning <br>
+					Dual Airbegs<br>
+					AB5<br>
+					18 Miles/gallon
+					
+			</div>
+			<div class="car" style="margin-top: 92px; background-color: white;">
+			<div class="ratebox" style="text-align: center;">
+			<h4><b>26.04</b></h4>
+			<p style="margin-top: -10px;">USD/DAY</p>
+			<img src="E:\program_example\HTML\Advantage_layout\images\select_gr_btn.gif" style="margin-top: -20px;">
+			<h6 style="margin-top: -8px;">Total 175.93 USD</h6>
+				
+			</div>
+			<div class="carbox"> <img src="E:\program_example\HTML\Advantage_layout\images\car7.gif" alt="search"></div>
+			<div class="detail">
+				<div class="passenger"><img src="E:\program_example\HTML\Advantage_layout\images\icon_man.gif"> <font> <b> x 4 </b>Passengers</font></div>
+					<br></br>
+				<div class="smallicon"><img src="E:\program_example\HTML\Advantage_layout\images\icon_sm_scase.gif"> <font> <b> x 2 </b>Small Suitcases</font>
+					<br> </br>
+				<div class="largeicon"> <img src="E:\program_example\HTML\Advantage_layout\images\icon_lg_scase.gif"> <font> <b> x  0 </b> Large Suitcases </font> </div>
+			</div>
+			</div>
+			<div class="features">
+				Automatic Transmission
+				Air Conditioning <br>
+				Dual Airbegs<br>
+				AB5<br>
+				16 Miles/gallon
+				
+			</div>
+			</div>
+			
+
+			
+			<div id="sidedetail"></div>
+						<div id="details">  <img src="E:\program_example\HTML\Advantage_layout\images\details.png"></div>
+						
+			</div>
+		<div id="offer"> <img src="E:\program_example\HTML\Advantage_layout\images\offer.gif"></div>
+		
+		<div id="lastbox" style="margin-top: 50px;">
+		<p id="para" style="font-size: 15px; margin-top: 10px; margin-bottom:10px;"><b>STAY CONNECTED</b></p>
+      <input type="text" name="email" value="Sign up for emails" size="20">
+      <div class="submt" style="margin-left: 205px;height: 25px; width: 70px;background-color:darkblue;color:white;margin-top:-25px;">
+      <p>SUMBIT</p>
+		 <img src="E:\program_example\HTML\Advantage_layout\images\twitter.png" style="margin-left: -200px; margin-top: 10px;">
+		  <img src="E:\program_example\HTML\Advantage_layout\images\youtube.png" style="margin-left: 20px; margin-top: 10px;">
+		   <img src="E:\program_example\HTML\Advantage_layout\images\facebook.png" style="margin-left: 20px; margin-top: 10px;"><br>
+		   <img src="E:\program_example\HTML\Advantage_layout\images\phoneIcon.png" style="margin-left: -200px; margin-top: 10px;">
+		   <h5 style="margin-left: -180px; margin-top: -20px; color: darkblue;">Advance Rent A Car Mobile</h5>
+
+		   
+			
+			<ul style="margin-left: 50px; margin-top: -135px; color: darkblue; list-style-type: none;width: 200px;">
+			<h5><b>Rates and Reservation</b></h5>
+  <li>Get a Quote</li>
+  <li>Modify/Cancel</li>
+  <li>Review</li>
+  <h5><b>A Pass Online CheckIn</b></h5>
+  <h5><b>Find a Location</b></h5>
+</ul>
+
+<ul style="margin-left: 250px; margin-top: -145px;color: darkblue;width: 200px;"><h5><b>Deals and Offers</b></h5>
+<h5><b>Contact Us</b></h5>
+<h5><b>Customer support</b></h5>
+  <p>FAQ</p>
+  <p>Request</p>
+  <p>Requirements</p>
+</ul>
+<ul style="margin-left: 450px; margin-top: -170px;color: darkblue;width: 200px; ">
+  <p>Careers</p>
+  <p>Privacy policy</p>
+  <p>site map</p>
+  <p>Business travel</p>
+  <p>Accident Report</p>
+</ul>
+<p style="color: black; text-align: center;width: 900px; margin-left: -200px; margin-top:50px;">REG>US>PAT>OFF2010.simplywheelsLLC.advantage rent a car s registered trade mark off simplywheelsLLC all right reverse</p>
+
+		</div>
+		</div>
+</div> <!-- main container end -->
+
+</body>
+</html> 
